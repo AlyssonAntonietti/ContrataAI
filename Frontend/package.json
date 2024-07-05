@@ -1,6 +1,6 @@
 {
   "name": "contrata-ai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ContrataAI - Currículos online",
   "main": "./out/main/index.js",
   "author": "Alysson Antonietti <alisonantonietti@gmail.com>",

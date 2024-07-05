@@ -52,12 +52,11 @@ const AreadoCliente = () => {
             <div class="conjunto-dados">Email: {value.email}</div>
             <div class="conjunto-dados">Telefone: {value.telefone}</div>
             <div class="conjunto-dados">Data de Nascimento: {value.dataNascimento}</div>
-            <div class="conjunto-dados">CEP: {value.cep}</div>
             <div class="conjunto-dados">Cidade: {value.cidade}</div>
             <div class="conjunto-dados">UF: {value.uf}</div>
             <div class="conjunto-dados">Estado Civil: {value.estadoCivil}</div>
             <div class="conjunto-dados">Gênero: {value.genero}</div>
-            <div class="conjunto-dados">Grau de Escolaridade: {value.escolaridade}</div>
+            <div class="conjunto-dados">Grau de Escolaridade: {value.grauEscolaridade}</div>
             <div class="conjunto-dados">Nacionalidade: {value.nacionalidade}</div>
             <div class="conjunto-dados">Descrição Pessoal: {value.descricaoPessoal}</div>
             <div class="conjunto-dados">Descrição Profissional: {value.descricaoProfissional}</div>

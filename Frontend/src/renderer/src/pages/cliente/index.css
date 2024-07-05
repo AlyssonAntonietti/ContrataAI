@@ -29,18 +29,23 @@
     display: flex; /* Usando flexbox para layout flexível */
     flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha conforme necessário */
     justify-content: flex-start; /* Alinha os elementos à esquerda */
-    border: 1px solid #ccc; /* Borda da janela */
+    align-items: center;
+    border: 1px solid black; /* Borda da janela */
     padding-left: 0,2px; /* Espaçamento interno da janela */
     border: 0,2% solid #6a3774;
     width: 35%;
     padding-left: 0,5%;
     border-radius: 3%;
-  }
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
   
 .conjunto-dados {
-    flex: 0 0 calc(60% - 10px); /* Cada conjunto de dados ocupará metade da largura da janela com margens */
+    flex: 0 0 calc(60% - 1px); /* Cada conjunto de dados ocupará metade da largura da janela com margens */
     margin: 5px; /* Margem entre os conjuntos de dados */
-    padding: px; /* Espaçamento interno dos conjuntos de dados */
     box-sizing: border-box; /* Garante que a largura inclua padding e borda */
     padding-left: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
 }
